@@ -1,0 +1,5 @@
+backend/debug
+frontend/node_modules
+frontend/ts-build
+backend/backend
+backend/modules/bindata.go
