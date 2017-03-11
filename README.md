@@ -7,11 +7,9 @@ Borrowed a lot of ideas from [https://github.com/codeskyblue/go-reactjs-example]
 ### Development
 To setup the development environment
 
-    ```bash
     npm install -g webpack
-	npm install
-	make dev
-    ```
+    npm install
+    make dev
 
 Now open VSCode and start debugging  
 Open in your browser the following url: [http://127.0.0.1:8080](http://127.0.0.1:8080)vv
@@ -20,15 +18,11 @@ Edit file `app/containers/app.jsx` and the site should refresh and you should se
 ## Production
 To prepare the site for production, just run the following command
 
-    ```bash
-	make prod
-    ```
+    make prod
 
 Now you can start the production ready site
 
-    ```bash
-	go run main.go
-    ```
+    go run main.go
 
 ## Thanks
 
